@@ -1,5 +1,7 @@
 This web application allows me to host my text files as a blog on a website.  
 
+0)  I can log into it.
+
 1)  It is able to check github to see if I have updated my text file.  
 
 2)  It is able to parse my personal ascii syntax and convert it into html elements which are styled to look absolutely magnificent.  
