@@ -37,3 +37,8 @@ Methods:
 2)  It is able to parse my personal ascii syntax and convert it into html elements which are styled to look absolutely magnificent.  
 
 3)  It is able to allow comments and users other than myself to host their scrolls on my site if they so choose to.  
+
+4)  Allow the site admin to mark some scrolls as "Exceptional Content" and some scroll authors as "Exceptional Contributor" and specify what contributions earned them the title.  
+  i.  Allow users to vote on exceptionality for admins that don't want to be editors.  
+  ii.  Allow users to be scaled back as "Exceptional Contributor from 2010-2012 (changed audience to self/ presentation viewers)"
+  
