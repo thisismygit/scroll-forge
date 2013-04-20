@@ -2,6 +2,36 @@ This web application allows me to host my text files as a blog on a website.
 
 0)  I can log into it.
 
+0.5)  Settings are:
+
+::User
+  User Name
+  Password
+  Homepage Url
+  Default Github Credentials
+
+Methods:
+  Create New Scrolls
+
+::Scrolls
+  #attr_accessible
+  github repo
+  Specific Github Credentials
+  
+  #public
+  make_scroll_private
+  make_scroll_public
+  delete_scroll # doesn't touch git repo
+  
+  #private
+  is_github_repo_online?
+  is_github_repo_up_to_date?
+  pull_down_scroll_repo
+
+  #for presentation
+  present_title
+  present_body
+
 1)  It is able to check github to see if I have updated my text file.  
 
 2)  It is able to parse my personal ascii syntax and convert it into html elements which are styled to look absolutely magnificent.  
