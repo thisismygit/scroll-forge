@@ -4,9 +4,10 @@ development:
     # Defines the default session. (required)
     default:
       # Defines the name of the default database that Mongoid can connect to.
-      uri: ENV['MONGO_DEVELOPMENT_URI']
+      uri: <%= ENV['MONGODB_DEVELOPMENT_URI'] %>
 
   options:
+    skip_version_check: true
 
 test:
   sessions:
@@ -14,7 +15,7 @@ test:
       #database: scroll_forge_test
       #hosts:
       #  - localhost:27017
-      uri: ENV['MONGO_TEST_URI']
+      uri: <%= ENV['MONGO_TEST_URI'] %>
       options:
         consistency: :strong
         # In the test environment we lower the retries and retry interval to
