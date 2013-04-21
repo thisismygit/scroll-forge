@@ -54,7 +54,14 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.19)
+    mongoid (3.1.3)
+      activemodel (~> 3.2)
+      moped (~> 1.4.2)
+      origin (~> 1.0)
+      tzinfo (~> 0.3.22)
+    moped (1.4.5)
     multi_json (1.3.6)
+    origin (1.0.11)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
@@ -90,7 +97,6 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.6)
     thin (1.5.0)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -111,8 +117,8 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
+  mongoid (~> 3.1.1)
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
-  sqlite3
   thin
   uglifier (>= 1.0.3)
