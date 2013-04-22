@@ -12,6 +12,8 @@ This web application allows me to host my text files as a blog on a website.
 
 Methods:
   Create New Scrolls
+  
+#  r g scaffold User first_name:string last_name:string email:string password:string homepage:string default_git_user:string default_git_authentication:string
 
 ::Scrolls
   #attr_accessible
