@@ -12,10 +12,9 @@ development:
 test:
   sessions:
     default:
-      #database: scroll_forge_test
       #hosts:
       #  - localhost:27017
-      uri: <%= ENV['MONGO_TEST_URI'] %>
+      uri: <%= ENV['MONGODB_TEST_URI'] %>
       options:
         consistency: :strong
         # In the test environment we lower the retries and retry interval to
