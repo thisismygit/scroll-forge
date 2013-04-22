@@ -2,6 +2,16 @@
 # Add your own tasks in files placed in lib/tasks ending in .rake,
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
-require File.expand_path('../config/application', __FILE__)
+#require File.expand_path('../config/application', __FILE__)
 
-ScrollForge::Application.load_tasks
+#ScrollForge::Application.load_tasks
+
+require 'rspec/core/rake_task'
+
+
+
+RSpec::Core::RakeTask.new(:spec) do |t|
+  t.fail_on_error = false
+end
+
+task :default => :spec
