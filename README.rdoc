@@ -20,6 +20,10 @@ Methods:
   github repo
   Specific Github Credentials
   scroll_status  # :released, :unreviewed, :work_in_progress, :back_burner
+  automatic_status  # these status levels are generated automatically
+    :disrepair   # The tut used to work, but no longer applies to the latest technology
+    :back_burner # The work is no longer in usable condition and hasn't been touched by auther lately
+    :depricated  # There is a more authoritative work available online which is kept up to date.  
   
   #public
   make_scroll_private
@@ -45,3 +49,4 @@ Methods:
   i.  Allow users to vote on exceptionality for admins that don't want to be editors.  
   ii.  Allow users to be scaled back as "Exceptional Contributor from 2010-2012 (changed audience to self/ presentation viewers)"
   
+5)  Make it so others can fork your scroll and push improvements.  
