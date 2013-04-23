@@ -9,6 +9,9 @@ gem 'rails', '3.2.13'
 
 gem 'thin'
 gem 'mongoid', '~> 3.1.1'
+gem 'database_cleaner', :group => :test
+gem 'factory_girl_rails', :group => :test
+gem 'mongoid-rspec', :group => :test
 gem 'pry'
 gem "rspec-rails", "~> 2.0"
 
