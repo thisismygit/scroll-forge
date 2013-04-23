@@ -19,6 +19,7 @@ Methods:
   #attr_accessible
   github repo
   Specific Github Credentials
+  scroll_status  # :released, :unreviewed, :work_in_progress, :back_burner
   
   #public
   make_scroll_private
